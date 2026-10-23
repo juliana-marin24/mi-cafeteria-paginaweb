@@ -1,0 +1,145 @@
+{
+  "categorias": [
+    {
+      "id": 1,
+      "nombre": "Almuerzos",
+      "icono": "fa-utensils",
+      "productos": [
+        {
+          "id": 1,
+          "nombre": "Arroz con Pollo",
+          "precio": 5000,
+          "descripcion": "Incluye ensalada y jugo natural"
+        },
+        {
+          "id": 2,
+          "nombre": "Bandeja Paisa",
+          "precio": 7000,
+          "descripcion": "Frijoles, arroz, carne, huevo, plátano, aguacate"
+        },
+        {
+          "id": 3,
+          "nombre": "Lentejas con Arroz",
+          "precio": 4500,
+          "descripcion": "Lentejas guisadas con arroz y plátano"
+        },
+        {
+          "id": 4,
+          "nombre": "Pollo al Horno",
+          "precio": 6000,
+          "descripcion": "Pechuga de pollo con papas y verduras"
+        },
+        {
+          "id": 5,
+          "nombre": "Pescado Frito",
+          "precio": 6500,
+          "descripcion": "Mojarra frita con arroz, patacón y ensalada"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "Entradas",
+      "icono": "fa-bowl-food",
+      "productos": [
+        {
+          "id": 6,
+          "nombre": "Sopa de Verduras",
+          "precio": 3000,
+          "descripcion": "Sopa casera con zanahoria, papa y fideo"
+        },
+        {
+          "id": 7,
+          "nombre": "Caldo de Costilla",
+          "precio": 4000,
+          "descripcion": "Caldo caliente con costilla de res"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "Ensaladas",
+      "icono": "fa-leaf",
+      "productos": [
+        {
+          "id": 8,
+          "nombre": "Ensalada César",
+          "precio": 4500,
+          "descripcion": "Lechuga, pollo a la parrilla, aderezo César"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "nombre": "Refrigerios",
+      "icono": "fa-cookie-bite",
+      "productos": [
+        {
+          "id": 9,
+          "nombre": "Galletas",
+          "precio": 1500,
+          "descripcion": "Paquete de galletas surtidas"
+        },
+        {
+          "id": 10,
+          "nombre": "Pan con Queso",
+          "precio": 2000,
+          "descripcion": "Pan fresco con queso derretido"
+        },
+        {
+          "id": 11,
+          "nombre": "Empanadas",
+          "precio": 1500,
+          "descripcion": "Empanadas de carne o pollo (unidad)"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "nombre": "Bebidas",
+      "icono": "fa-glass-water",
+      "productos": [
+        {
+          "id": 12,
+          "nombre": "Jugo Natural",
+          "precio": 2000,
+          "descripcion": "Jugo del día (limón, lulo, mango, guanábana)"
+        },
+        {
+          "id": 13,
+          "nombre": "Agua Botella",
+          "precio": 1500,
+          "descripcion": "Agua pura 500ml"
+        },
+        {
+          "id": 14,
+          "nombre": "Gaseosa 400ml",
+          "precio": 2000,
+          "descripcion": "Gaseosa personal (Cola, Limón o Naranja)"
+        },
+        {
+          "id": 15,
+          "nombre": "Café",
+          "precio": 1000,
+          "descripcion": "Café negro o con leche"
+        }
+      ]
+    }
+  ],
+  "promociones": [
+    {
+      "id": 1,
+      "nombre": "Combo Almuerzo",
+      "precio": 6500,
+      "descripcion": "Cualquier almuerzo + gaseosa 400ml",
+      "descuento": "Ahorra $500"
+    },
+    {
+      "id": 2,
+      "nombre": "Desayuno Completo",
+      "precio": 4000,
+      "descripcion": "Pan con queso + café + jugo natural",
+      "descuento": "Ahorra $500"
+    }
+  ]
+}

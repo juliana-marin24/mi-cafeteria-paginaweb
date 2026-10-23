@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Horarios de la Cafetería Escolar - Consulta los horarios de atención de lunes a domingo.">
+  
+  <title>Horarios - Cafetería Escolar</title>
+  
+  <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
+
+  <!-- HEADER -->
+  <header class="header">
+    <nav class="nav-container" aria-label="Navegación principal">
+      <a href="index.html" class="nav-logo">
+        <i class="fas fa-utensils"></i>
+        <span>Cafetería</span> Escolar
+      </a>
+      
+      <button class="hamburger" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      
+      <ul class="nav-menu">
+        <li><a href="index.html" class="nav-link"><i class="fas fa-home"></i> Inicio</a></li>
+        <li><a href="menu.html" class="nav-link"><i class="fas fa-utensils"></i> Menú</a></li>
+        <li><a href="precios.html" class="nav-link"><i class="fas fa-tags"></i> Precios</a></li>
+        <li><a href="horarios.html" class="nav-link active"><i class="fas fa-clock"></i> Horarios</a></li>
+        <li><a href="contacto.html" class="nav-link"><i class="fas fa-envelope"></i> Contacto</a></li>
+        <li><a href="ayuda.html" class="nav-link"><i class="fas fa-question-circle"></i> Ayuda</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- MAIN -->
+  <main id="main-content">
+    <section class="page-header">
+      <h1><i class="fas fa-clock"></i> Horarios de Atención</h1>
+      <p>Conoce nuestros horarios de apertura y cierre</p>
+    </section>
+
+    <section class="page-content">
+      <!-- Horario de Hoy (Destacado) -->
+      <div class="section-header">
+        <h2 class="section-title"><i class="fas fa-calendar-day"></i> Horario de Hoy</h2>
+      </div>
+
+      <div class="text-center mb-4">
+        <div style="background: var(--bg-white); display: inline-block; padding: 2rem 3rem; border-radius: var(--radius-lg); box-shadow: var(--shadow);">
+          <i class="fas fa-clock" style="font-size: 2rem; color: var(--primary); margin-bottom: 1rem; display: block;"></i>
+          <p style="color: var(--text-light); margin-bottom: 0.5rem;">La cafetería está</p>
+          <div id="horario-hoy" style="font-size: 1.5rem; color: var(--text-dark);">
+            <div class="spinner"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tabla de Horarios -->
+      <div class="section-header">
+        <h2 class="section-title"><i class="fas fa-calendar-week"></i> Horarios de la Semana</h2>
+        <p class="section-subtitle">Horarios regulares de atención</p>
+      </div>
+
+      <div id="horarios-container">
+        <div class="loading">
+          <div class="spinner"></div>
+          <p>Cargando horarios...</p>
+        </div>
+      </div>
+
+      <!-- Nota -->
+      <div class="mt-4" style="background: var(--primary-light); padding: 1.5rem; border-radius: var(--radius); border-left: 4px solid var(--primary);">
+        <p style="color: var(--primary-dark);">
+          <i class="fas fa-info-circle"></i>
+          <strong>Nota:</strong> Los horarios pueden variar en días feriados o de vacaciones. 
+          Consulta nuestra sección de contacto para más información.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3><i class="fas fa-utensils"></i> Cafetería Escolar</h3>
+        <p>Tu fuente de información para la cafetería de la institución educativa.</p>
+      </div>
+      <div class="footer-section">
+        <h3>Enlaces Rápidos</h3>
+        <a href="index.html">Inicio</a>
+        <a href="menu.html">Menú</a>
+        <a href="precios.html">Precios</a>
+        <a href="horarios.html">Horarios</a>
+      </div>
+      <div class="footer-section">
+        <h3>Servicio</h3>
+        <a href="contacto.html">Contacto</a>
+        <a href="ayuda.html">Ayuda</a>
+      </div>
+      <div class="footer-section">
+        <h3>Contacto</h3>
+         <p><i class="fas fa-phone"></i> (57) 3208979153</p>
+        <p><i class="fas fa-envelope"></i> micafeteria@gmail.com</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Cafetería Escolar. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/navigation.js"></script>
+  <script src="js/horarios.js"></script>
+</body>
+</html>

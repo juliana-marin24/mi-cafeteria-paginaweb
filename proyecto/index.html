@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cafetería Escolar - Consulta menú, precios, horarios y más. Tu fuente de información para la cafetería de la institución educativa.">
+  <meta name="keywords" content="cafetería, escolar, menú, precios, horarios, institución educativa">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Cafetería Escolar">
+  <meta property="og:description" content="Consulta menú, precios, horarios y más.">
+  <meta property="og:type" content="website">
+  
+  <title>Cafetería Escolar - Inicio</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Estilos -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Skip to main content (Accesibilidad) -->
+  <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
+
+  <!-- ============================================
+       HEADER / NAVEGACIÓN
+       ============================================ -->
+  <header class="header">
+    <nav class="nav-container" aria-label="Navegación principal">
+      <a href="index.html" class="nav-logo">
+        <i class="fas fa-utensils"></i>
+        <span>Cafetería</span> Escolar
+      </a>
+      
+      <button class="hamburger" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="index.html" class="nav-link active"><i class="fas fa-home"></i> Inicio</a></li>
+        <li><a href="menu.html" class="nav-link"><i class="fas fa-utensils"></i> Menú</a></li>
+        <li><a href="precios.html" class="nav-link"><i class="fas fa-tags"></i> Precios</a></li>
+        <li><a href="horarios.html" class="nav-link"><i class="fas fa-clock"></i> Horarios</a></li>
+        <li><a href="contacto.html" class="nav-link"><i class="fas fa-envelope"></i> Contacto</a></li>
+        <li><a href="ayuda.html" class="nav-link"><i class="fas fa-question-circle"></i> Ayuda</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ============================================
+       CONTENIDO PRINCIPAL
+       ============================================ -->
+  <main id="main-content">
+    
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Bienvenido a la Cafetería Escolar</h1>
+        <p>Consulta el menú del día, precios, horarios y toda la información que necesitas. Todo en un solo lugar, siempre actualizado.</p>
+        <div class="hero-buttons">
+          <a href="menu.html" class="btn btn-white">
+            <i class="fas fa-utensils"></i> Ver Menú del Día
+          </a>
+          <a href="precios.html" class="btn btn-outline">
+            <i class="fas fa-tags"></i> Ver Precios
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Accesos Rápidos -->
+    <section class="section">
+      <div class="section-header">
+        <h2 class="section-title">Acceso Rápido</h2>
+        <p class="section-subtitle">Encuentra rápidamente lo que necesitas</p>
+      </div>
+      
+      <div class="cards-grid">
+        <!-- Menú -->
+        <a href="menu.html" class="card" style="text-decoration: none;">
+          <div class="card-body">
+            <div class="card-icon">
+              <i class="fas fa-utensils"></i>
+            </div>
+            <h3 class="card-title">Menú del Día</h3>
+            <p class="card-text">Consulta los platos disponibles hoy en la cafetería.</p>
+          </div>
+        </a>
+        
+        <!-- Precios -->
+        <a href="precios.html" class="card" style="text-decoration: none;">
+          <div class="card-body">
+            <div class="card-icon">
+              <i class="fas fa-tags"></i>
+            </div>
+            <h3 class="card-title">Precios</h3>
+            <p class="card-text">Conoce el precio de todos nuestros productos.</p>
+          </div>
+        </a>
+        
+        <!-- Horarios -->
+        <a href="horarios.html" class="card" style="text-decoration: none;">
+          <div class="card-body">
+            <div class="card-icon">
+              <i class="fas fa-clock"></i>
+            </div>
+            <h3 class="card-title">Horarios</h3>
+            <p class="card-text">Verifica los horarios de atención de la cafetería.</p>
+          </div>
+        </a>
+        
+        <!-- Contacto -->
+        <a href="contacto.html" class="card" style="text-decoration: none;">
+          <div class="card-body">
+            <div class="card-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <h3 class="card-title">Contacto</h3>
+            <p class="card-text">¿Tienes preguntas? Contáctanos directamente.</p>
+          </div>
+        </a>
+        
+        <!-- Ayuda -->
+        <a href="ayuda.html" class="card" style="text-decoration: none;">
+          <div class="card-body">
+            <div class="card-icon">
+              <i class="fas fa-question-circle"></i>
+            </div>
+            <h3 class="card-title">Ayuda</h3>
+            <p class="card-text">Preguntas frecuentes y ayuda sobre la cafetería.</p>
+          </div>
+        </a>
+        
+        <!-- Próximamente -->
+        <a href="proximamente.html" class="card" style="text-decoration: none;">
+          <div class="card-body">
+            <div class="card-icon">
+              <i class="fas fa-rocket"></i>
+            </div>
+            <h3 class="card-title">Próximamente</h3>
+            <p class="card-text">Nuevas funcionalidades que están en camino.</p>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- Menú del Día (Resumen) -->
+    <section class="section" style="background: var(--bg-white);">
+      <div class="section-header">
+        <h2 class="section-title">Menú del Día</h2>
+        <p class="section-subtitle">Hoy es <span id="dia-actual"></span></p>
+      </div>
+      
+      <div class="cards-grid" id="menu-inicio">
+        <div class="loading">
+          <div class="spinner"></div>
+          <p>Cargando menú...</p>
+        </div>
+      </div>
+      
+      <div class="text-center mt-4">
+        <a href="menu.html" class="btn btn-primary">
+          <i class="fas fa-arrow-right"></i> Ver Menú Completo
+        </a>
+      </div>
+    </section>
+
+    <!-- Horario de Hoy -->
+    <section class="section">
+      <div class="section-header">
+        <h2 class="section-title">Horario de Hoy</h2>
+        <p class="section-subtitle">La cafetería está</p>
+      </div>
+      
+      <div class="text-center">
+        <div style="background: var(--bg-white); display: inline-block; padding: 2rem 3rem; border-radius: var(--radius-lg); box-shadow: var(--shadow);">
+          <i class="fas fa-clock" style="font-size: 2rem; color: var(--primary); margin-bottom: 1rem; display: block;"></i>
+          <div id="horario-hoy" style="font-size: 1.5rem; color: var(--text-dark);">
+            <div class="spinner"></div>
+          </div>
+          <a href="horarios.html" class="btn btn-primary mt-3">
+            <i class="fas fa-calendar-alt"></i> Ver Todos los Horarios
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================
+       FOOTER
+       ============================================ -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3><i class="fas fa-utensils"></i> Cafetería Escolar</h3>
+        <p>Tu fuente de información para la cafetería de la institución educativa. Menú, precios, horarios y más.</p>
+      </div>
+      
+      <div class="footer-section">
+        <h3>Enlaces Rápidos</h3>
+        <a href="index.html">Inicio</a>
+        <a href="menu.html">Menú</a>
+        <a href="precios.html">Precios</a>
+        <a href="horarios.html">Horarios</a>
+      </div>
+      
+      <div class="footer-section">
+        <h3>Servicio</h3>
+        <a href="contacto.html">Contacto</a>
+        <a href="ayuda.html">Ayuda</a>
+        <a href="proximamente.html">Próximamente</a>
+      </div>
+      
+      <div class="footer-section">
+        <h3>Contacto</h3>
+        <p><i class="fas fa-phone"></i> (57) 3208979153</p>
+        <p><i class="fas fa-envelope"></i> micafeteria2420@gmail.com</p>
+        <p><i class="fas fa-map-marker-alt"></i> Institución Educativa</p>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p>&copy; 2026 Cafetería Escolar. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+  <script src="js/navigation.js"></script>
+  <script src="js/horarios.js"></script>
+  <script>
+    // Renderizar menú del día en inicio
+    document.addEventListener('DOMContentLoaded', () => {
+      // Mostrar día actual
+      const diaActual = window.CafeteriaUtils.getDiaActual();
+      document.getElementById('dia-actual').textContent = diaActual;
+      
+      // Cargar menú
+      renderizarMenuInicio('menu-inicio');
+    });
+  </script>
+</body>
+</html>

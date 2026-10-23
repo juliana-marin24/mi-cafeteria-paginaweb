@@ -1,0 +1,60 @@
+{
+  "horarios": [
+    {
+      "id": 1,
+      "dia": "Lunes",
+      "apertura": "07:00",
+      "cierre": "14:00",
+      "activo": true,
+      "es_feriado": false
+    },
+    {
+      "id": 2,
+      "dia": "Martes",
+      "apertura": "07:00",
+      "cierre": "14:00",
+      "activo": true,
+      "es_feriado": false
+    },
+    {
+      "id": 3,
+      "dia": "Miércoles",
+      "apertura": "07:00",
+      "cierre": "14:00",
+      "activo": true,
+      "es_feriado": false
+    },
+    {
+      "id": 4,
+      "dia": "Jueves",
+      "apertura": "07:00",
+      "cierre": "14:00",
+      "activo": true,
+      "es_feriado": false
+    },
+    {
+      "id": 5,
+      "dia": "Viernes",
+      "apertura": "07:00",
+      "cierre": "13:00",
+      "activo": true,
+      "es_feriado": false
+    },
+    {
+      "id": 6,
+      "dia": "Sábado",
+      "apertura": "08:00",
+      "cierre": "12:00",
+      "activo": true,
+      "es_feriado": false
+    },
+    {
+      "id": 7,
+      "dia": "Domingo",
+      "apertura": null,
+      "cierre": null,
+      "activo": false,
+      "es_feriado": false
+    }
+  ]
+}

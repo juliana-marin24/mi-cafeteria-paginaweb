@@ -1,0 +1,146 @@
+{
+  "semana": [
+    {
+      "dia": "Lunes",
+      "productos": [
+        {
+          "id": 1,
+          "nombre": "Arroz con Pollo",
+          "descripcion": "Arroz amarillo con pollo guisado, ensalada fresca y jugo natural",
+          "precio": 5000,
+          "categoria": "almuerzos",
+          "imagen": "img/menu1.jpg",
+          "etiquetas": ["sin-gluten"]
+        },
+        {
+          "id": 2,
+          "nombre": "Sopa de Verduras",
+          "descripcion": "Sopa casera con zanahoria, papa y fideo",
+          "precio": 3000,
+          "categoria": "entradas",
+          "imagen": "img/menu2.jpg",
+          "etiquetas": ["vegetariano", "sin-gluten"]
+        }
+      ]
+    },
+    {
+      "dia": "Martes",
+      "productos": [
+        {
+          "id": 3,
+          "nombre": "Bandeja Paisa",
+          "descripcion": "Frijoles, arroz, carne molida, huevo frito, plátano maduro y aguacate",
+          "precio": 7000,
+          "categoria": "almuerzos",
+          "imagen": "img/menu3.jpg",
+          "etiquetas": []
+        },
+        {
+          "id": 4,
+          "nombre": "Ensalada César",
+          "descripcion": "Lechuga fresca, pollo a la parrilla, aderezo César y crutones",
+          "precio": 4500,
+          "categoria": "ensaladas",
+          "imagen": "img/menu4.jpg",
+          "etiquetas": []
+        }
+      ]
+    },
+    {
+      "dia": "Miércoles",
+      "productos": [
+        {
+          "id": 7,
+          "nombre": "Pollo al Horno",
+          "descripcion": "Pechuga de pollo al horno con papas y verduras asadas",
+          "precio": 6000,
+          "categoria": "almuerzos",
+          "imagen": "img/menu7.jpg",
+          "etiquetas": []
+        },
+        {
+          "id": 6,
+          "nombre": "Jugo de Frutas",
+          "descripcion": "Jugo natural del día (guanábana, maracuyá o mango)",
+          "precio": 2000,
+          "categoria": "bebidas",
+          "imagen": "img/menu6.jpg",
+          "etiquetas": ["vegetariano", "sin-gluten"]
+        }
+      ]
+    },
+    {
+      "dia": "Jueves",
+      "productos": [
+        {
+          "id": 5,
+          "nombre": "Lentejas con Arroz",
+          "descripcion": "Lentejas guisadas con arroz blanco y plátano maduro",
+          "precio": 4500,
+          "categoria": "almuerzos",
+          "imagen": "img/menu5.jpg",
+          "etiquetas": ["sin-gluten"]
+        },
+        {
+          "id": 8,
+          "nombre": "Gaseosa 400ml",
+          "descripcion": "Gaseosa personal (Cola, Limón o Naranja)",
+          "precio": 2000,
+          "categoria": "bebidas",
+          "imagen": "img/menu8.jpg",
+          "etiquetas": ["vegetariano", "sin-gluten"]
+        }
+      ]
+    },
+    {
+      "dia": "Viernes",
+      "productos": [
+        {
+          "id": 9,
+          "nombre": "Pescado Frito",
+          "descripcion": "Mojarra frita con arroz, patacón y ensalada",
+          "precio": 6500,
+          "categoria": "almuerzos",
+          "imagen": "img/menu9.jpg",
+          "etiquetas": ["sin-gluten"]
+        },
+        {
+          "id": 10,
+          "nombre": "Pan con Queso",
+          "descripcion": "Pan artesanal con queso derretido",
+          "precio": 2000,
+          "categoria": "refrigerios",
+          "imagen": "img/menu10.jpg",
+          "etiquetas": []
+        }
+      ]
+    },
+    {
+      "dia": "Sábado",
+      "productos": [
+        {
+          "id": 11,
+          "nombre": "Caldo de Costilla",
+          "descripcion": "Caldo caliente con costilla de res, papa y cilantro",
+          "precio": 4000,
+          "categoria": "entradas",
+          "imagen": "img/menu11.jpg",
+          "etiquetas": ["sin-gluten"]
+        },
+        {
+          "id": 12,
+          "nombre": "Empanadas",
+          "descripcion": "Empanadas de carne o pollo (unidad)",
+          "precio": 1500,
+          "categoria": "refrigerios",
+          "imagen": "img/menu12.jpg",
+          "etiquetas": []
+        }
+      ]
+    },
+    {
+      "dia": "Domingo",
+      "productos": []
+    }
+  ]
+}
